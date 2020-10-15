@@ -54,13 +54,9 @@ text-align: center;
 
                 cursor: pointer;
                 transition:  all 0.7s ease;
-                fill: rgb(241, 113, 113);
+                fill: rgb(101, 193, 247);
 
             }
-
-
-
-
 
 
   .panel {
@@ -202,4 +198,12 @@ color: green;
     height: 42.5%;
     text-align: center;
 }
+
+#dogory{
+    position: fixed;
+    right: 3%;
+    bottom: 5%;
+    cursor: pointer;
+}
+
 
