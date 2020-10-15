@@ -14,5 +14,5 @@ for (i = 0; i < acc.length; i++) {
 }
 
     function name(name) {
-        document.getElementById("wojewodzstow").innerHTML = name;
+        document.getElementById("wojewodztwo").innerHTML = name;
     }
