@@ -19,8 +19,8 @@ document.onscroll=function() {
 	{
 		window.scrollTo(0,0);
   }
-  
-  $(document).ready(function(){ 
+
+  $(document).ready(function(){
 
     $(window).scroll(function(){
         if ($(this).scrollTop() > 500) {
@@ -28,7 +28,7 @@ document.onscroll=function() {
         } else {
             $('#dogory').fadeOut();
         }
-    }); 
+    });
 
     $('dogory').click(function(){
         $("html, body").animate({ scrollTop: 0 }, 600);
